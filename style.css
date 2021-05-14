@@ -37,3 +37,17 @@
   float: left;
   position: relative;
 }
+
+.title__high {
+  position: absolute;
+  left: 5%;
+  bottom: 5%;
+}
+
+#picture__main__white {
+  background: url(./img/White/4.png);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-color: #ccc;
+  background-size: cover;
+}
