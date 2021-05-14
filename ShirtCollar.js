@@ -59,3 +59,21 @@ getEle("change7").addEventListener("mouseover", function () {
 getEle("change7").addEventListener("mouseout", function () {
     getEle("picture__main").style.backgroundImage = "url('./img/7.png')";
 }, false);
+
+
+
+// ShirtCollar White
+// var div = getEle("change4")
+getEle("change4__white").addEventListener("mouseover", function () {
+    getEle("picture__main__white").style.backgroundImage = "url('./img/White/1.png')";
+}, false);
+getEle("change4__white").addEventListener("mouseout", function () {
+    getEle("picture__main__white").style.backgroundImage = "url('./img/White/1.png')";
+}, false);
+
+getEle("change3__white").addEventListener("mouseover", function () {
+    getEle("picture__main__white").style.backgroundImage = "url('./img/White/3.png')";
+}, false);
+getEle("change3__white").addEventListener("mouseout", function () {
+    getEle("picture__main__white").style.backgroundImage = "url('./img/White/3.png')";
+}, false);
