@@ -8,8 +8,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <!-- Swiper
-             -->
+    <!-- Swiper-->
     <!-- Swiper imports -->
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
 
@@ -47,12 +46,16 @@
         crossorigin="anonymous"></script>
 
     <script>
-        var div = document.getElementById("change4")
-        div.addEventListener("mouseover", function () {
-            document.getElementById("picture__main").style.backgroundImage = "url('./img/1.png')";
+        function getEle(id) {
+            //Trả về đối tượng thẻ được tìm thấy
+            return document.getElementById(id);
+        }
+        // var div = getEle("change4")
+        getEle("change4").addEventListener("mouseover", function () {
+            getEle("picture__main").style.backgroundImage = "url('./img/1.png')";
         }, false);
-        div.addEventListener("mouseout", function () {
-            document.getElementById("picture__main").style.backgroundImage = "url('./img/1.png')";
+        getEle("change4").addEventListener("mouseout", function () {
+            getEle("picture__main").style.backgroundImage = "url('./img/1.png')";
         }, false);
     </script>
 </body>
