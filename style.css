@@ -5,10 +5,11 @@
 }
 
 .picture {
-  height: 504px;
+  height: 100%;
   position: relative;
-  width: 1269px;
+  width: 100%;
   position: relative;
+  object-fit: cover;
 }
 #picture__main {
   background: url(./img/4.png);
