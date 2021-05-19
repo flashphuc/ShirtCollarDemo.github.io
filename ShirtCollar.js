@@ -112,3 +112,55 @@ getEle("change7__white").addEventListener("mouseover", function () {
 getEle("change7__white").addEventListener("mouseout", function () {
     getEle("picture__main__white").style.backgroundImage = "url('./img/White/7.png')";
 }, false);
+
+
+// ShirtCollar White
+// var div = getEle("change4")
+getEle("change1__whiteneck").addEventListener("mouseover", function () {
+    getEle("picture__main__whiteneck").style.backgroundImage = "url('./img/Whiteneck/1.png')";
+}, false);
+getEle("change1__whiteneck").addEventListener("mouseout", function () {
+    getEle("picture__main__whiteneck").style.backgroundImage = "url('./img/Whiteneck/1.png')";
+}, false);
+
+getEle("change2__whiteneck").addEventListener("mouseover", function () {
+    getEle("picture__main__whiteneck").style.backgroundImage = "url('./img/Whiteneck/2.png')";
+}, false);
+getEle("change2__whiteneck").addEventListener("mouseout", function () {
+    getEle("picture__main__whiteneck").style.backgroundImage = "url('./img/Whiteneck/2.png')";
+}, false);
+
+getEle("change3__whiteneck").addEventListener("mouseover", function () {
+    getEle("picture__main__whiteneck").style.backgroundImage = "url('./img/Whiteneck/3.png')";
+}, false);
+getEle("change3__whiteneck").addEventListener("mouseout", function () {
+    getEle("picture__main__whiteneck").style.backgroundImage = "url('./img/Whiteneck/3.png')";
+}, false);
+
+getEle("change4__whiteneck").addEventListener("mouseover", function () {
+    getEle("picture__main__whiteneck").style.backgroundImage = "url('./img/Whiteneck/4.png')";
+}, false);
+getEle("change4__whiteneck").addEventListener("mouseout", function () {
+    getEle("picture__main__whiteneck").style.backgroundImage = "url('./img/Whiteneck/4.png')";
+}, false);
+
+getEle("change5__whiteneck").addEventListener("mouseover", function () {
+    getEle("picture__main__whiteneck").style.backgroundImage = "url('./img/Whiteneck/5.png')";
+}, false);
+getEle("change5__whiteneck").addEventListener("mouseout", function () {
+    getEle("picture__main__whiteneck").style.backgroundImage = "url('./img/Whiteneck/5.png')";
+}, false);
+
+getEle("change6__whiteneck").addEventListener("mouseover", function () {
+    getEle("picture__main__whiteneck").style.backgroundImage = "url('./img/Whiteneck/6.png')";
+}, false);
+getEle("change6__whiteneck").addEventListener("mouseout", function () {
+    getEle("picture__main__whiteneck").style.backgroundImage = "url('./img/Whiteneck/6.png')";
+}, false);
+
+getEle("change7__whiteneck").addEventListener("mouseover", function () {
+    getEle("picture__main__whiteneck").style.backgroundImage = "url('./img/Whiteneck/7.png')";
+}, false);
+getEle("change7__whiteneck").addEventListener("mouseout", function () {
+    getEle("picture__main__whiteneck").style.backgroundImage = "url('./img/Whiteneck/7.png')";
+}, false);
