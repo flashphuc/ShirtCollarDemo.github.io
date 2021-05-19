@@ -45,8 +45,9 @@
 
 .title__high {
   position: absolute;
-  left: 5%;
-  bottom: 5%;
+  left: 0;
+  top: 0;
+  text-align: left;
 }
 
 #picture__main__white {
@@ -56,6 +57,7 @@
   background-color: #ccc;
   background-size: cover;
   object-fit: cover;
+  display: none;
 }
 
 #picture__main__whiteneck {
@@ -65,4 +67,9 @@
   background-color: #ccc;
   background-size: cover;
   object-fit: cover;
+  display: none;
+}
+.change__pictureCollar {
+  border: solid 1px black;
+  cursor: pointer;
 }
