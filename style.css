@@ -70,6 +70,10 @@
   display: none;
 }
 .change__pictureCollar {
-  border: solid 1px black;
   cursor: pointer;
+  border: solid 1px black;
+}
+
+.change__pictureCollar:focus-visible {
+  opacity: 0.8;
 }
